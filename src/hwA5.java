@@ -1,6 +1,6 @@
 public class hwA5 {
     public static void main(String[] args) {
-        int[] array = {9, 9, 9, 7, 9, 7, 7, 7};
+        int[] array = {39, 39, 39, 47, 39, 47, 47, 87};
         int[] arrayToSort = new int[array.length];
         int numberEmptyArrayIndexes = 0;
 
@@ -26,7 +26,7 @@ public class hwA5 {
                numberEmptyArrayIndexes++;
             }
         }
-        if (numberEmptyArrayIndexes == arrayToSort.length) {
+        if (numberEmptyArrayIndexes == arrayToSort.length - 1) {
             System.out.println("повторяющихся нет");
         }
     }
